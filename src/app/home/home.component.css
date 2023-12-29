@@ -1,0 +1,14 @@
+@keyframes flaming {
+    0%, 100% {
+      color: orange;
+      text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px yellow, 0 0 70px yellow, 0 0 80px yellow, 0 0 100px yellow, 0 0 150px yellow;
+    }
+    50% {
+      color: yellow;
+      text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px yellow, 0 0 35px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 75px yellow;
+    }
+  }
+  .flame-icon {
+    animation: flaming 1s linear infinite;
+  }
+  
